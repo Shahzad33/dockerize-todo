@@ -29,10 +29,10 @@ To start the docker container, use below command<br>
 docker run -dp 3000:3000 username/new-reponame:tagname<br>
 Verify your app. If you have followed the above steps correctly, your app should be listening on localhost:3000<br>
 To enter(exec) into the container, use the below command<br>
-docker exec -it containername sh
-or
-docker exec -it containerid sh
-To view docker logs
-docker logs containername
-or
-docker logs containerid
+docker exec -it containername sh<br>
+or<br>
+docker exec -it containerid sh<br>
+To view docker logs<br>
+docker logs containername<br>
+or<br>
+docker logs containerid<br>
